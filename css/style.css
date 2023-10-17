@@ -1,0 +1,11 @@
+html, button, body, div{
+    font-family: 'Lato', sans-serif;
+}
+
+@media (min-width: 768px)
+{
+ .game_zone{
+    position: absolute;
+    z-index: 3;   
+ }
+}
