@@ -32,7 +32,7 @@ const majAffichage = (value) => {
   user2ScoreTmp.innerHTML = game.user2.scoreTmp;
   user1Score.innerText = game.user1.scoreGlobal;
   user2Score.innerText = game.user2.scoreGlobal;
-  diceValue.src = `../images/dice-${value}-fill.svg`;
+  diceValue.src = `./images/dice-${value}-fill.svg`;
 
   if (game.roundUser === 1) {
     user1Name.style.visibility = 'visible';
